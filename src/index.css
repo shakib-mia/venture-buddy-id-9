@@ -216,15 +216,49 @@
 .accordion-button::after {
     background-image: url("./components/utils/accordion-arrow.png");
     background-position-y: 7px;
+    animation-name: accordion;
+    animation-duration: 300ms;
 }
 
 .accordion-button[aria-expanded="true"]::after {
-    background-image: url("./components/utils/accordion-arrow.png");
+    background-image: url("./components/utils/expanded-arrow.png");
     color: white;
+    transform: rotate(0);
+    animation-name: accordion-expanded;
+    animation-duration: 300ms;
+}
+
+@keyframes accordion-expanded {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes accordion {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
 }
 
 .accordion-button[aria-expanded="true"] {
     color: #283891;
+    /* color: hsl(231, 84%, 25%); */
 }
 
 .accordion-body {

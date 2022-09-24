@@ -8,17 +8,15 @@ import Options from "./components/Options";
 
 function App() {
   return (
-    <>
     <div className="app">
-    <Navbar/>
-    <Heading/>
-    <Options/>
-    <Live/>
-    <Closed/>
-    <FAQ/>
+      <Navbar />
+      <Heading />
+      <Options />
+      <Live />
+      <Closed />
+      <FAQ />
+      <Footer />
     </div>
-    <Footer/>
-    </>
   );
 }
 
