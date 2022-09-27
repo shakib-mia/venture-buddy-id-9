@@ -235,7 +235,6 @@ hr {
     padding-top: 16px;
 }
 
-
 .accordion-button:focus {
     background-color: white;
     border: 0 !important;
@@ -246,6 +245,7 @@ hr {
     font-weight: 500;
     line-height: 27px;
     padding-bottom: 8px;
+    color: #49516A;
 }
 
 .accordion-button::after {
