@@ -63,6 +63,11 @@
     color: #6D747A;
 }
 
+input[type="text"]:focus {
+    border: 0;
+    box-shadow: none;
+}
+
 /* options */
 
 .options {
@@ -77,7 +82,10 @@
 #search {
     height: 40px;
     width: 272px;
-    border-radius: 20px;
+}
+
+#search:focus {
+    border: 0 !important;
 }
 
 .search-icon {
@@ -121,9 +129,15 @@
 /* cards */
 
 .card {
-    height: 454px;
+    height: 472px;
     width: 410px;
     margin-bottom: 37px;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: 0;
+    padding-bottom: 12px;
 }
 
 .card-title {
@@ -202,13 +216,18 @@
 .accordion {
     padding: 50px 360px 70px 360px;
     --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-btn-focus-box-shadow: none;
 }
+
+/* .accordion-header:focus {
+    box-shadow: none;
+} */
 
 hr {
     margin-right: 16px;
     height: 34px;
     width: 3px;
-    background: #dbdce1;
+    background: #a5a5a5;
     margin-top: 9px;
 }
 

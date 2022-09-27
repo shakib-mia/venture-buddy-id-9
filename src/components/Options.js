@@ -14,7 +14,7 @@ const Options = () => {
       <input
         type="text"
         id="search"
-        className="rounded-pill text-center border-0"
+        className="rounded-pill text-center form-control border-0"
         placeholder="Search for interest startups"
       />
       <button className="btn dropdown-toggle rounded-pill">sector</button>
