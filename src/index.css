@@ -219,10 +219,6 @@ input[type="text"]:focus {
     --bs-accordion-btn-focus-box-shadow: none;
 }
 
-/* .accordion-header:focus {
-    box-shadow: none;
-} */
-
 hr {
     margin-right: 16px;
     height: 34px;
