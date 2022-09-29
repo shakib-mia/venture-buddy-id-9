@@ -61,7 +61,7 @@ const Live = () => {
     },
   ];
   return (
-    <div className="livedeals">
+    <div className="livedeals container-fluid px-5">
       <div className="title">Live Deals</div>
       <div className="sub-title">130 Opportunities.</div>
 

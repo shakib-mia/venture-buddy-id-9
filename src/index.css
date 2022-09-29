@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 .app {
-    padding: 0px 68px 0px 68px;
+    /* padding: 0px 68px 0px 68px; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-outline-dark-blue {
@@ -75,23 +78,34 @@ input[type="text"]:focus {
     height: 88px;
     background: #F8F9FA;
     border-radius: 12px 12px 0px 0px;
-    padding: 24px 0px 24px 24px;
+    padding: 24px;
     gap: 16px;
-}
-
-#search {
-    height: 40px;
-    width: 272px;
 }
 
 #search:focus {
     border: 0 !important;
 }
 
+.input-group {
+    height: 40px;
+}
+
 .search-icon {
-    position: relative;
-    top: 12px;
-    left: 43px;
+    position: absolute;
+    top: 3px;
+    bottom: 0;
+    left: 18px;
+    margin: auto;
+    width: 16px;
+    height: 16px;
+}
+
+#search-text {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 272px;
+    text-align: center;
 }
 
 .options .btn {
@@ -214,7 +228,6 @@ input[type="text"]:focus {
 }
 
 .accordion {
-    padding: 50px 360px 70px 360px;
     --bs-accordion-btn-focus-border-color: none;
     --bs-accordion-btn-focus-box-shadow: none;
 }

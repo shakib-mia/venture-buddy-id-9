@@ -2,7 +2,7 @@ import React from "react";
 
 const Heading = () => {
   return (
-    <div className="heading">
+    <div className="heading container-fluid px-5">
       <div className="title">Invest Now</div>
       <div className="sub-title">
         venture buddy offers a variety of investment

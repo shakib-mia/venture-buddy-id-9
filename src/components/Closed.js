@@ -61,7 +61,7 @@ const Closed = () => {
     },
   ];
   return (
-    <div className="livedeals">
+    <div className="livedeals container-fluid px-5">
       <div className="title">Closed Deals</div>
       <div className="sub-title">30 Opportunities.</div>
 

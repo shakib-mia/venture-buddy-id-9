@@ -3,12 +3,15 @@ import App from "./../App";
 
 const FAQ = () => {
   return (
-    <div className="faq">
+    <div className="faq container-fluid px-5">
       <div className="d-flex title justify-content-center">
         Frequently Asked Questions
       </div>
 
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div
+        class="accordion accordion-flush col-6 mx-auto"
+        id="accordionFlushExample"
+      >
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button
