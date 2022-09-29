@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ATG-world-ID9/static/css/main.426943a9.css",
+    "main.js": "/ATG-world-ID9/static/js/main.a36cc625.js",
+    "static/media/Cover.svg": "/ATG-world-ID9/static/media/Cover.44c4e8df218a64e84d9aa93ed7fcf58c.svg",
+    "static/media/Profile.svg": "/ATG-world-ID9/static/media/Profile.3b7df3723efbdc5eec3d66840d40bcc3.svg",
+    "static/media/logo.svg": "/ATG-world-ID9/static/media/logo.63f90364ac968fc993dfc9b8c802beb6.svg",
+    "index.html": "/ATG-world-ID9/index.html",
+    "static/media/search.svg": "/ATG-world-ID9/static/media/search.df4da0687e643cd11b5d5b2231f03167.svg",
+    "main.426943a9.css.map": "/ATG-world-ID9/static/css/main.426943a9.css.map",
+    "main.a36cc625.js.map": "/ATG-world-ID9/static/js/main.a36cc625.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.426943a9.css",
+    "static/js/main.a36cc625.js"
+  ]
+}
