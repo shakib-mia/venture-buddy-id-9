@@ -248,21 +248,6 @@ hr {
     color: #49516A;
 }
 
-/* .accordion-button::after {
-    background-image: url("./components/utils/accordion-arrow.png");
-    background-position-y: 7px;
-    animation-name: accordion;
-    animation-duration: 300ms;
-} */
-
-/* .accordion-button[aria-expanded="true"]::after {
-    background-image: url("./components/utils/expanded-arrow.png");
-    color: white;
-    transform: rotate(0);
-    animation-name: accordion-expanded;
-    animation-duration: 300ms;
-} */
-
 @keyframes accordion-expanded {
     0% {
         transform: rotate(180deg);
