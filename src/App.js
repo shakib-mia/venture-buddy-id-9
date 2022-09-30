@@ -76,7 +76,9 @@ function App() {
   const [found, setFound] = useState([...deals]);
 
   const handleText = (e) => {
-    const found = deals.filter((deal) => deal.title.includes(e));
+    const found = deals.filter((deal) =>
+      deal.title.toLowerCase().includes(e.toLowerCase())
+    );
     setFound(found);
   };
 
