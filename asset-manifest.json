@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/venture-buddy-id-9/static/css/main.2af2f1be.css",
-    "main.js": "/venture-buddy-id-9/static/js/main.a4b78209.js",
+    "main.css": "/venture-buddy-id-9/static/css/main.c0f8f0e4.css",
+    "main.js": "/venture-buddy-id-9/static/js/main.2b3462df.js",
     "static/media/Cover.svg": "/venture-buddy-id-9/static/media/Cover.44c4e8df218a64e84d9aa93ed7fcf58c.svg",
     "static/media/Profile.svg": "/venture-buddy-id-9/static/media/Profile.3b7df3723efbdc5eec3d66840d40bcc3.svg",
     "static/media/logo.svg": "/venture-buddy-id-9/static/media/logo.63f90364ac968fc993dfc9b8c802beb6.svg",
     "index.html": "/venture-buddy-id-9/index.html",
-    "main.2af2f1be.css.map": "/venture-buddy-id-9/static/css/main.2af2f1be.css.map",
-    "main.a4b78209.js.map": "/venture-buddy-id-9/static/js/main.a4b78209.js.map"
+    "main.c0f8f0e4.css.map": "/venture-buddy-id-9/static/css/main.c0f8f0e4.css.map",
+    "main.2b3462df.js.map": "/venture-buddy-id-9/static/js/main.2b3462df.js.map"
   },
   "entrypoints": [
-    "static/css/main.2af2f1be.css",
-    "static/js/main.a4b78209.js"
+    "static/css/main.c0f8f0e4.css",
+    "static/js/main.2b3462df.js"
   ]
 }
