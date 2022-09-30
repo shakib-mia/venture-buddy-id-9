@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+
+
 .app {
     /* padding: 0px 68px 0px 68px; */
     font-family: 'Poppins', sans-serif;
@@ -80,6 +82,7 @@ input[type="text"]:focus {
     border-radius: 12px 12px 0px 0px;
     padding: 24px;
     gap: 16px;
+    color: #6d747a;
 }
 
 #search:focus {
@@ -111,8 +114,16 @@ input[type="text"]:focus {
 .options .btn {
     background-color: white;
     padding: 7px 24px 7px 24px;
+    color: #6d747a;
 }
 
+.options .btn:hover {
+    border: 1px solid transparent;
+}
+
+.options .btn:focus {
+    border: 1px solid transparent;
+}
 
 /* live */
 
@@ -248,9 +259,13 @@ hr {
     padding-top: 16px;
 }
 
-.accordion-button:focus {
-    background-color: white;
-    border: 0 !important;
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("./components/utils/expanded-arrow.png");
+    transform: rotate(0deg) !important;
 }
 
 .accordion-button {

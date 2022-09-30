@@ -1,5 +1,4 @@
 import React from "react";
-import App from "./../App";
 
 const FAQ = () => {
   return (
@@ -15,7 +14,7 @@ const FAQ = () => {
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button
-              class="accordion-button collapsed"
+              class="accordion-button collapsed pb-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne"
@@ -46,7 +45,7 @@ const FAQ = () => {
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingTwo">
             <button
-              class="accordion-button collapsed"
+              class="accordion-button collapsed pb-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseTwo"
@@ -77,7 +76,7 @@ const FAQ = () => {
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingThree">
             <button
-              class="accordion-button collapsed"
+              class="accordion-button collapsed pb-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseThree"
@@ -108,7 +107,7 @@ const FAQ = () => {
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingfour">
             <button
-              class="accordion-button collapsed"
+              class="accordion-button collapsed pb-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapsefour"
@@ -139,7 +138,7 @@ const FAQ = () => {
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingfive">
             <button
-              class="accordion-button collapsed"
+              class="accordion-button collapsed pb-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapsefive"
