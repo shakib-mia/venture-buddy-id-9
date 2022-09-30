@@ -1,0 +1,43 @@
+#card {
+    margin: 18.5px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.cardTexts {
+    height: 234px;
+}
+
+.cardOptions {
+    font-size: 20px;
+    margin-top: 166px;
+    font-weight: 600;
+
+}
+
+.cardOptions li {
+    padding-bottom: 4px;
+}
+
+#card:hover #cardFooter {
+    display: none;
+}
+
+#card:hover .cardOptions {
+    margin-top: 66px;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6d747a;
+}
+
+#rupee {
+    height: 13px;
+}
+
+.large {
+    font-weight: 600;
+    color: #08090a;
+}

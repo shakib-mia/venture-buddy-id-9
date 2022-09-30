@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="faq container-fluid px-5">
+    <div className="faq container-fluid px-5 pb-5 mb-5">
       <div className="d-flex title justify-content-center">
         Frequently Asked Questions
       </div>

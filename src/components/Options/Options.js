@@ -1,5 +1,5 @@
 import React from "react";
-import search from "./utils/search.png";
+import search from "./../utils/search.png";
 
 const Options = () => {
   return (

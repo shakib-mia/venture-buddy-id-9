@@ -1,10 +1,10 @@
-import Closed from "./components/Closed";
-import FAQ from "./components/FAQ";
-import Footer from "./components/Footer";
-import Heading from "./components/Heading";
-import Live from "./components/Live";
-import Navbar from "./components/Navbar";
-import Options from "./components/Options";
+import Closed from "./components/Closed/Closed";
+import FAQ from "./components/FAQ/FAQ";
+import Footer from "./components/Footer/Footer";
+import Heading from "./components/Heading/Heading";
+import Live from "./components/Live/Live";
+import Navbar from "./components/Navbar/Navbar";
+import Options from "./components/Options/Options";
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Deals from "./subcomponents/Deals";
-import cover from "./utils/Cover.svg";
-import profile from "./utils/Profile.svg";
+import Deals from "../subcomponents/Deals/Deals";
+import cover from "./../utils/Cover.svg";
+import profile from "./../utils/Profile.svg";
 
 const Closed = () => {
   const deals = [
@@ -62,8 +62,8 @@ const Closed = () => {
   ];
   return (
     <div className="livedeals container-fluid px-5">
-      <div className="title">Closed Deals</div>
-      <div className="sub-title">30 Opportunities.</div>
+      <div className="ps-2 title">Closed Deals</div>
+      <div className="ps-2 sub-title">30 Opportunities.</div>
 
       <div className="row">
         {deals.map((deal) => (

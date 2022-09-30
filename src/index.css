@@ -154,8 +154,8 @@ input[type="text"]:focus {
 /* cards */
 
 .card {
-    height: 472px;
-    width: 410px;
+    /* height: 472px;
+    width: 410px; */
     margin-bottom: 37px;
 }
 
@@ -163,6 +163,8 @@ input[type="text"]:focus {
     background-color: transparent;
     border-top: 0;
     padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
 }
 
 .card-title {
@@ -181,7 +183,22 @@ input[type="text"]:focus {
     font-size: 13px;
     line-height: 20px;
     color: #6D747A;
-    padding-bottom: 70px;
+}
+
+.list-group-item {
+    color: #08090a;
+}
+
+.card:hover .card-body {
+    top: -130px;
+}
+
+.card-img-top {
+    position: relative;
+}
+
+.card:hover .card-img-top {
+    top: -4.5rem;
 }
 
 .card .btn-custom {
@@ -200,7 +217,7 @@ input[type="text"]:focus {
 
 .card .profile {
     position: absolute;
-    top: 173px;
+    top: -32px;
     left: 16px;
 }
 
@@ -249,10 +266,6 @@ hr {
     width: 3px;
     background: #a5a5a5;
     margin-top: 9px;
-}
-
-.livedeals .card-body {
-    padding: 12px 16px;
 }
 
 .accordion-body {
