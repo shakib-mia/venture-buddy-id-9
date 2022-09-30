@@ -1,7 +1,7 @@
 import React from "react";
 import search from "./../utils/search.png";
 
-const Options = () => {
+const Options = ({ handleText }) => {
   return (
     <div className="options d-flex flex-row me-auto mx-5 px-5">
       <div className="position-relative">
@@ -14,6 +14,7 @@ const Options = () => {
           id="search-text"
           aria-label="Username"
           aria-describedby="basic-addon1"
+          onChange={(e) => handleText(e.target.value)}
         />
       </div>
       <button className="btn dropdown-toggle rounded-pill">sector</button>

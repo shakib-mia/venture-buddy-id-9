@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./../utils/logo.svg";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
@@ -27,9 +28,15 @@ const Navbar = () => {
           <a className="nav-link" href="/">
             Login & Signup
           </a>
-          <button className="btn btn-custom" href="/">
-            Live Deals
-          </button>
+          <li className="nav-item px-4 ps-4 py-0" id={styles.animatedButton}>
+            <div className={styles.outline}></div>
+            <a
+              href="https://tiny-marzipan-457afd.netlify.app/"
+              className={`${styles.liveDeals}`}
+            >
+              Live Deals
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
