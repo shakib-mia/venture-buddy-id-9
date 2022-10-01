@@ -11,7 +11,7 @@ const Deals = ({ deal, closed }) => {
           src={deal.cover}
           alt="cover"
           id={styles.cardImg}
-          className="card-img-top"
+          className="card-img-top rounded-0"
         />
 
         <div className="card-body bg-white position-relative">
@@ -28,7 +28,7 @@ const Deals = ({ deal, closed }) => {
 
             <div className={styles.cardOptions}>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0">
+                <li class="list-group-item p-0 py-1">
                   <div
                     className="d-flex align-items-baseline"
                     style={{ gap: 4 }}
@@ -38,16 +38,16 @@ const Deals = ({ deal, closed }) => {
                     <span className={styles.small}>raised</span>
                   </div>
                 </li>
-                <li class="list-group-item p-0">
+                <li class="list-group-item p-0 py-1">
                   <span className={styles.large}>613</span>{" "}
                   <span className={styles.small}>investers</span>
                 </li>
-                <li class="list-group-item p-0">
+                <li class="list-group-item p-0 py-1">
                   <img src={rupee} alt="" id={styles.rupee} />{" "}
                   <span className={styles.large}>699</span>{" "}
                   <span className={styles.small}>min investment</span>
                 </li>
-                <li class="list-group-item p-0">
+                <li class="list-group-item p-0 py-1">
                   <img src={rupee} alt="" id={styles.rupee} />{" "}
                   <span className={styles.large}>1cr</span>{" "}
                   <span className={styles.small}>Market value</span>

@@ -20,6 +20,16 @@
     }
 }
 
+#logo {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#logo img {
+    /* width: 100%; */
+}
+
 #animatedButton {
     position: relative;
     width: 133px;
@@ -31,14 +41,14 @@
     height: 50px;
     position: absolute;
     left: 0;
-    top: -23px;
+    top: -4px;
     animation: button-animation 1s infinite ease-in-out;
     border-radius: 8px;
 }
 
 .liveDeals {
     position: absolute;
-    top: -11px;
+    top: 10px;
     color: #E9EBF4;
     text-decoration: none;
     width: 100%;
@@ -59,4 +69,53 @@
     animation: none;
     background: transparent !important;
     border: 2px solid #39B54A;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #navbar {
+        padding: 24px 0;
+        box-shadow: 0 0 8px #333;
+    }
+
+    #logo {
+        position: absolute;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #navbar {
+        padding: 16px 0;
+    }
+
+    #logo {
+        position: absolute;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #navbar {
+        padding: 16px 68px;
+    }
+
+    #logo {
+        position: static;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #navbar {
+        padding: 16px 68px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #navbar {
+        padding: 16px 68px;
+    }
 }

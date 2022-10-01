@@ -1,7 +1,23 @@
 import React from "react";
 import search from "./../utils/search.png";
 
-const Options = ({ handleText }) => {
+const Options = ({ handleText, setRevenue, setTech, setSector }) => {
+  const handleRevenueChange = (e) => {
+    setRevenue(e.target.value);
+    e.target.style.backgroundColor = "#39b54a";
+    e.target.style.boxShadow = "0 0 5px #39b54a";
+  };
+  const handleTechChange = (e) => {
+    setTech(e.target.value);
+    e.target.style.backgroundColor = "#39b54a";
+    e.target.style.boxShadow = "0 0 5px #39b54a";
+  };
+  const handleSectorChange = (e) => {
+    setSector(e.target.value);
+    e.target.style.backgroundColor = "#39b54a";
+    e.target.style.boxShadow = "0 0 5px #39b54a";
+  };
+
   return (
     <div className="options d-flex flex-row me-auto mx-5 px-5">
       <div className="position-relative">
@@ -17,11 +33,57 @@ const Options = ({ handleText }) => {
           onChange={(e) => handleText(e.target.value)}
         />
       </div>
-      <button className="btn dropdown-toggle rounded-pill">sector</button>
 
-      <button className="btn dropdown-toggle rounded-pill">Tech</button>
+      <select
+        className={`form-select border-0 rounded-pill`}
+        id="sectorOptions"
+        onChange={handleSectorChange}
+      >
+        <option selected>Sector</option>
+        <option value="arts">Arts & Entertainment</option>
+        <option value="Edtech">Edtech</option>
+        <option value="Finetch">Finetch</option>
+        <option value="foodAndDrinks">Food & Drinks</option>
+        <option value="healthAndWellness">Health & wellness</option>
+        <option value="Healthcare">Healthcare</option>
+        <option value="realEstate">Real estate</option>
+        <option value="transportation">Transportation</option>
+        <option value="travel">Travel & Hospitality</option>
+      </select>
 
-      <button className="btn dropdown-toggle rounded-pill">Revenue</button>
+      <select
+        className={`form-select border-0 rounded-pill`}
+        id="techOptions"
+        onChange={handleTechChange}
+      >
+        <option selected>Tech</option>
+        <option value="arts">Arts & Entertainment</option>
+        <option value="Edtech">Edtech</option>
+        <option value="Finetch">Finetch</option>
+        <option value="foodAndDrinks">Food & Drinks</option>
+        <option value="healthAndWellness">Health & wellness</option>
+        <option value="Healthcare">Healthcare</option>
+        <option value="realEstate">Real estate</option>
+        <option value="transportation">Transportation</option>
+        <option value="travel">Travel & Hospitality</option>
+      </select>
+
+      <select
+        className={`form-select border-0 rounded-pill`}
+        id="revenueOptions"
+        onChange={handleRevenueChange}
+      >
+        <option selected>Revenue</option>
+        <option value="arts">Arts & Entertainment</option>
+        <option value="Edtech">Edtech</option>
+        <option value="Finetch">Finetch</option>
+        <option value="foodAndDrinks">Food & Drinks</option>
+        <option value="healthAndWellness">Health & wellness</option>
+        <option value="Healthcare">Healthcare</option>
+        <option value="realEstate">Real estate</option>
+        <option value="transportation">Transportation</option>
+        <option value="travel">Travel & Hospitality</option>
+      </select>
     </div>
   );
 };

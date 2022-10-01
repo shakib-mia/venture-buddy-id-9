@@ -65,7 +65,7 @@ function App() {
       id: 6,
       cover: cover,
       profile: profile,
-      title: "Venturebuddy",
+      title: "Uber eats",
       content:
         "Uber Eats is an online food ordering and delivery platform launched by Uber in 2014.",
       btn1: "FINTECH",
@@ -74,6 +74,9 @@ function App() {
   ];
 
   const [found, setFound] = useState([...deals]);
+  const [revenue, setRevenue] = useState("");
+  const [sector, setSector] = useState("");
+  const [tech, setTech] = useState("");
 
   const handleText = (e) => {
     const found = deals.filter((deal) =>
@@ -86,7 +89,12 @@ function App() {
     <div className="app">
       <Navbar />
       <Heading />
-      <Options handleText={handleText} />
+      <Options
+        handleText={handleText}
+        setRevenue={setRevenue}
+        setTech={setTech}
+        setSector={setSector}
+      />
       <Live deals={found} />
       <Closed deals={found} />
       <FAQ />

@@ -85,6 +85,14 @@ input[type="text"]:focus {
     color: #6d747a;
 }
 
+option {
+    background-color: white;
+}
+
+#revenueOptions {
+    width: 115%;
+}
+
 #search:focus {
     border: 0 !important;
 }
@@ -168,13 +176,12 @@ input[type="text"]:focus {
 }
 
 .card-title {
-
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #08090A;
-    padding-top: 45px;
+    padding-top: 43px;
 }
 
 .card-text {
@@ -189,20 +196,23 @@ input[type="text"]:focus {
     color: #08090a;
 }
 
-.card:hover .card-body {
-    top: -130px;
+.card-body {
+    padding-top: 0;
 }
 
 .card-img-top {
     position: relative;
 }
 
+.card:hover .card-body {
+    top: -130px;
+}
+
 .card:hover .card-img-top {
-    top: -4.5rem;
+    top: -5rem;
 }
 
 .card .btn-custom {
-
     height: 28px;
     padding: 4px 8px;
     margin-right: 8px;
@@ -236,6 +246,7 @@ input[type="text"]:focus {
     line-height: 24px;
     text-transform: uppercase;
     color: #08090A;
+    z-index: 1;
 }
 
 /* faq */
