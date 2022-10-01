@@ -82,7 +82,7 @@ input[type="text"]:focus {
     border-radius: 12px 12px 0px 0px;
     padding: 24px;
     gap: 16px;
-    color: #6d747a;
+    color: #6d747a !important;
 }
 
 option {

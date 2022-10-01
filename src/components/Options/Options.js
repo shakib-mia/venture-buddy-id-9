@@ -7,29 +7,48 @@ const Options = ({ handleText, setRevenue, setTech, setSector }) => {
 
     if (e.target.value !== "Revenue") {
       e.target.style.backgroundColor = "#39b54a";
+      e.target.style.color = "#fff";
+      document
+        .getElementById("revenueOptions")
+        .childNodes.forEach((item) => (item.style.color = "#000"));
       e.target.style.boxShadow = "0 0 5px #39b54a";
     } else {
       e.target.style.backgroundColor = "#fff";
+      e.target.style.color = "#000";
       e.target.style.boxShadow = "none";
     }
   };
+
   const handleTechChange = (e) => {
     setTech(e.target.value);
+
     if (e.target.value !== "Tech") {
       e.target.style.backgroundColor = "#39b54a";
+      e.target.style.color = "#fff";
+      document
+        .getElementById("techOptions")
+        .childNodes.forEach((item) => (item.style.color = "#000"));
       e.target.style.boxShadow = "0 0 5px #39b54a";
     } else {
       e.target.style.backgroundColor = "#fff";
+      e.target.style.color = "#000";
       e.target.style.boxShadow = "none";
     }
   };
+
   const handleSectorChange = (e) => {
     setSector(e.target.value);
+
     if (e.target.value !== "Sector") {
       e.target.style.backgroundColor = "#39b54a";
+      e.target.style.color = "#fff";
+      document
+        .getElementById("sectorOptions")
+        .childNodes.forEach((item) => (item.style.color = "#000"));
       e.target.style.boxShadow = "0 0 5px #39b54a";
     } else {
       e.target.style.backgroundColor = "#fff";
+      e.target.style.color = "#000";
       e.target.style.boxShadow = "none";
     }
   };
