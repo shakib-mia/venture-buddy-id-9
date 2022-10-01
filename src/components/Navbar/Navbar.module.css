@@ -116,6 +116,6 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     #navbar {
-        padding: 16px 68px;
+        padding: 16px 55px;
     }
 }
