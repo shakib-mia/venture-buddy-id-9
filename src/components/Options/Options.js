@@ -4,18 +4,34 @@ import search from "./../utils/search.png";
 const Options = ({ handleText, setRevenue, setTech, setSector }) => {
   const handleRevenueChange = (e) => {
     setRevenue(e.target.value);
-    e.target.style.backgroundColor = "#39b54a";
-    e.target.style.boxShadow = "0 0 5px #39b54a";
+
+    if (e.target.value !== "Revenue") {
+      e.target.style.backgroundColor = "#39b54a";
+      e.target.style.boxShadow = "0 0 5px #39b54a";
+    } else {
+      e.target.style.backgroundColor = "#fff";
+      e.target.style.boxShadow = "none";
+    }
   };
   const handleTechChange = (e) => {
     setTech(e.target.value);
-    e.target.style.backgroundColor = "#39b54a";
-    e.target.style.boxShadow = "0 0 5px #39b54a";
+    if (e.target.value !== "Tech") {
+      e.target.style.backgroundColor = "#39b54a";
+      e.target.style.boxShadow = "0 0 5px #39b54a";
+    } else {
+      e.target.style.backgroundColor = "#fff";
+      e.target.style.boxShadow = "none";
+    }
   };
   const handleSectorChange = (e) => {
     setSector(e.target.value);
-    e.target.style.backgroundColor = "#39b54a";
-    e.target.style.boxShadow = "0 0 5px #39b54a";
+    if (e.target.value !== "Sector") {
+      e.target.style.backgroundColor = "#39b54a";
+      e.target.style.boxShadow = "0 0 5px #39b54a";
+    } else {
+      e.target.style.backgroundColor = "#fff";
+      e.target.style.boxShadow = "none";
+    }
   };
 
   return (
