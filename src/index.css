@@ -205,10 +205,12 @@ option {
 
 .card:hover .card-body {
     top: -130px;
+    transition: all 1s;
 }
 
 .card:hover .card-img-top {
     top: -5rem;
+    transition: all 1s;
 }
 
 .card .btn-custom {

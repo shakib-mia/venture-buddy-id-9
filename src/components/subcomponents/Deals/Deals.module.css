@@ -12,23 +12,24 @@
 
 .cardOptions {
     font-size: 20px;
-    margin-top: 166px;
     font-weight: 600;
+    margin-top: 118px;
+}
 
+#card:hover .cardOptions {
+    margin-top: 70px;
 }
 
 .cardOptions li {
-    padding-bottom: 4px;
     line-height: 30px;
+    padding: 0;
+    padding-bottom: 4px;
 }
 
 #card:hover #cardFooter {
     display: none;
 }
 
-#card:hover .cardOptions {
-    margin-top: 56px;
-}
 
 .small {
     font-size: 16px;
