@@ -5,7 +5,7 @@ const Live = ({ deals }) => {
   return (
     <div className="livedeals container-fluid px-5">
       <div className="ps-2 title">Live Deals</div>
-      <div className="ps-2 sub-title">130 Opportunities.</div>
+      <div className="ps-2 sub-title">130 Opportunities</div>
 
       <div className="row">
         {deals.map((deal) => (

@@ -41,16 +41,17 @@ const Navbar = () => {
                   Contact us
                 </a>
               </li>
-              <li className="nav-item text-light">
+              <li className="nav-item text-light d-flex align-items-center">
                 <a
                   href="#"
-                  className="py-0 nav-link border-end d-none d-lg-block border-3"
-                  style={{ marginTop: 9, paddingRight: "32px" }}
+                  className="py-0 nav-link d-none d-lg-block"
+                  style={{ paddingRight: "32px" }}
                 >
                   Contact us
                 </a>
+                <div className={styles.customBorder}></div>
               </li>
-              <li className="py-0 my-auto">
+              <li className="nav-item text-light">
                 <a href="#" className="nav-link">
                   Login & Signup
                 </a>
@@ -64,7 +65,7 @@ const Navbar = () => {
                   href="https://tiny-marzipan-457afd.netlify.app/"
                   className={`${styles.liveDeals}`}
                 >
-                  Live Deals
+                  Live deals
                 </a>
               </li>
             </ul>

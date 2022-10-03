@@ -71,6 +71,13 @@
     border: 2px solid #39B54A;
 }
 
+.customBorder {
+    width: 2px;
+    height: 24px;
+    background: #CED4DA;
+    border-radius: 2px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
