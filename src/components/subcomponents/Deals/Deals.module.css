@@ -4,6 +4,7 @@
     overflow: hidden;
     border: 0;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
 }
 
 .cardTexts {
@@ -17,13 +18,12 @@
 }
 
 #card:hover .cardOptions {
-    margin-top: 70px;
+    margin-top: 58px;
 }
 
 .cardOptions li {
     line-height: 30px;
-    padding: 0;
-    padding-bottom: 4px;
+    padding: 4px 0;
 }
 
 #card:hover #cardFooter {
